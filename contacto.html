@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale1.0">
+    <link rel="stylesheet" type="text/css" href="styleContacto.css">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://arycacocinasyclosets.shop/contacto" />
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+     
+</head>
+
+<title>AryCa Cocinas y Closets</title>
+    
+    
+    
+    
+<body>
+    
+          
+<nav>
+         <div class="menu-image">
+            <a href="index.html"> <h2 > AryCa   </h2></a>
+        </div>
+    <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="somos.html">Quienes Somos</a></li>
+            <li class="submenu-parent">
+      <a href="#services">Galeria</a>
+      <ul class="submenu">
+        <li><a href="Cocinas.html">Cocinas</a></li>
+        <li><a href="Closets.html">Closets</a></li>
+        <li><a href="Otros.html">Otros</a></li>
+      </ul>
+    </li>
+            
+            
+            
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+       
+    </nav>
+    
+    
+    
+    
+    
+    
+    
+    <div class="tituloContacto">
+        <h1 class="inicio">Estamos aquí para ayudarte</h1>
+        
+        <p class="parrafos"> Si tienes alguna pregunta o deseas cotizar, no dudes en escribirnos, nuestro equipo estará encantado de ayudarte.</p>
+        
+    
+    
+    </div>
+    
+    
+    <div id="ubi" class="ubicacion">
+        <iframe class="frameMapa" src=" " ></iframe>
+    
+    </div>
+    
+    
+    
+    
+        <div class="tFormulario">  
+        <h1>Dale vida a tus ideas con AryCa</h1>
+            
+            <p class="parrafos">¿Estás pensando en renovar tu cocina o closet? Contáctanos para discutir tus proyectos o resolver tus dudas.Estamos aquí para transformar tus espacios en algo único y funcional. </p>
+        </div>
+        
+    
+    <div class="areFormulario">
+        <section class="formulario">
+            
+            
+        <h1>Contáctanos</h1>
+        <form id="form" class="formularioContacto" >
+            <input type="text" oninput="validarSoloLetras(this)" id="from_name" name="from_name" placeholder="Tu nombre" required>
+            <input type="number"  id="number_id" name="number_id" placeholder="Tu numero telefonico" required>
+            <textarea id="message" name="message" placeholder="Platícanos tu idea, y por favor especifíca de donde eres" required></textarea>
+            <button onclick="mostra()" type="submit" id="button" value="Send Email" name="button">Enviar</button>
+        </form>
+            <script>
+  function validarSoloLetras(input) {
+    input.value = input.value.replace(/[^a-zA-ZáéíóúÁÉÍÓÚñÑ\s]/g, '');
+  }
+</script>
+    <script type="text/javascript"
+  src=" "></script>
+
+<script type="text/javascript">
+  emailjs.init(' ')
+</script>
+        </section>
+        
+        
+    </div>
+    
+    
+   <div class="fin">
+    
+    <div class="n2">
+        <h3>&nbsp; &nbsp;Menú</h3>
+        
+        <ul> 
+        <li><a href="index.html">Inicio </a> </li>
+        <li><a href=" ">Ubicación </a></li>
+       
+        
+        
+      <li><a href="Closets.html">Clósets </a> </li>
+       <li><a href="Cocinas.html">Cocinas </a> </li>     
+     <li><a href="Otros.html">Otros </a> </li>
+      <li><a href="somos.html#mision">Misión </a> </li> 
+        <li> <a href="somos.html#mision">Visión </a> </li> 
+    
+         
+        
+        
+        
+        
+        </ul>
+        
+        
+        
+        
+        </div>
+        
+        
+        <div class="n3">  
+            <h3>Síguenos</h3>
+            <div class="imagenesredes"> 
+            <a href=" "> <img  class="face" src="face.png" alt="" > </a>
+            
+            <a href=" "> <img class="insta" src="ins.png" alt=""> </a>
+            
+            <a href=" "> <img class="wh" src="wh.png" alt=""></a>
+            </div>
+        
+        </div>
+    
+    
+    
+    </div>
+        
+    <div class="espacio"> <p> </p> </div>
+        
+    
+    
+    
+    
+    <script src="enviar.js"> </script>
+    <script>
+        function limpiarFormulario(event) {
+            event.preventDefault(); // Evita que el formulario se envíe y recargue la página
+            const formulario = document.getElementById("form");
+            formulario.reset(); // Resetea todos los campos del formulario
+        }
+    </script>
+    
+    
+      <script>
+        
+        
+        
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuToggle = document.querySelector('.menu-toggle');
+        const menu = document.querySelector('.menu');
+        
+        
+        document.addEventListener('click', function (event) {
+    if (!menu.contains(event.target) && !menuToggle.contains(event.target)) {
+        menu.classList.remove('open'); // Cierra el menú si el clic ocurre fuera
+    }
+});
+
+        menuToggle.addEventListener('click', function () {
+            menu.classList.toggle('open');
+           
+        });
+    });
+        
+        
+        
+        
+</script>
+</body>
+
+
+
+
+
+
+
+</html>

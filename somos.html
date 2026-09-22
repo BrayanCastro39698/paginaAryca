@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale1.0">
+    <link rel="stylesheet" type="text/css" href="stilo2.css">
+    <meta name="robots" content="index, follow">
+    <title>AryCa Cocinas y Closets</title>
+    <link rel="canonical" href="https://arycacocinasyclosets.shop/somos" />
+    
+    </head>
+
+
+    
+    <body>
+    
+        
+      <nav>
+         <div class="menu-image">
+            <a href="index.html"> <h2 > AryCa   </h2></a>
+        </div>
+          <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="somos.html">Quienes Somos</a></li>
+            <li class="submenu-parent">
+      <a href="#services">Galeria</a>
+      <ul class="submenu">
+        <li><a href="Cocinas.html">Cocinas</a></li>
+        <li><a href="Closets.html">Closets</a></li>
+          <li><a href="Otros.html">Otros</a></li>
+      </ul>
+    </li>
+            
+            
+            
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+       
+    </nav>
+        
+        
+        
+        <div class="portada">
+        
+            <div class="s1"><img class="imagen1" src="aryca.jpeg" alt="">   </div>
+            
+            <div class="presentacion">  
+            <p class="p1"> ¿Quiénes somos?</p>
+            <p class="p2">En AryCa Cocinas y Closets nos especializamos en el diseño o la fabricación de cocinas, closets u otro tipo de muebles  personalizados que, combinan estilo, funcionalidad y durabilidad.Transformamos ideas en espacios que inspiran.</p>
+            </div>
+        
+        
+        </div>
+        
+
+        
+        
+        <p class="plinea"><marquee class="linea">. Calidad . Innovación .  Compromiso . Experiencia     </marquee></p>
+        
+        
+        
+        <div class="servicios">  
+        <img class="calidad" src="calidad.png" alt="">
+            
+        <img class="innovacion" src="innovacion.png" alt="">
+        
+        <img class="compromiso" src="compromiso.png" alt="">   
+        
+        <img class="experiencia" src="experiencia.png" alt=""> 
+            
+            
+        </div>
+        
+         <!-------  DIV MISION VISION ------- -->
+        
+        
+        <div  class="MyV" >
+            <div id="mision" class="mision" >
+            
+            
+            
+            
+            <p class="pmv">Nuestra misión</p>
+            
+            
+            <p class="pt">Es diseñar y fabricar espacios personalizados que combinen estética, funcionalidad y durabilidad, superando las expectativas de nuestros clientes.Trabajamos con pasión, creatividad y excelencia, asegurándonos de que cada proyecto sea una experiencia única, marcada por la calidad y la atención al detalle.</p>
+                </div>
+            
+            
+            
+            
+            
+            <div class="vision">
+            <p class="pmv">Nuestra Visión</p>
+                
+                
+                <p class="pt">Ser reconocidos como una gran  empresa en el mercado de diseño de cocinas y closets a medida, destacándonos por nuestra innovación, compromiso con la calidad y el servicio al cliente.Aspiramos a seguir transformando espacios en ambientes que inspiren y mejoren la calidad de vida de las personas.</p>
+            
+            
+            
+            </div>
+        
+        
+        
+        </div>
+        
+        
+         <!-------  DIV  MYV ------- -->
+        
+        
+        <div class="PQ">
+        
+        <div class="PQcontenido"> 
+        <p class="pmv">¿Por qué elegir AryCa?</p>
+            
+            
+           <ol > 
+            
+            <li class="pt">Ofrecemos diseños a medida que maximizan el uso del espacio disponible.</li>
+            <br>
+            <li class="pt">Nos aseguramos de que cada proyecto sea una experiencia positiva, desde la primera consulta hasta la instalación final.</li>
+            <br>
+            <li class="pt">Contamos con un equipo de profesionales capacitados y comprometidos con cada detalle de tu proyecto.</li>
+            <br>
+            <li class="pt">Garantizamos un proceso transparente.</li>
+               
+            </ol>
+        </div>
+        </div>
+        
+    
+          <!-------  DIV  FINAL ------- -->
+        
+        <div class="fin">
+    
+    <div class="f1">
+        <h3>&nbsp; &nbsp; Menú</h3>
+        
+        <ul> 
+        <li><a href="index.html">Inicio </a> </li> 
+        <li><a href=" ">Ubicación </a></li>
+       
+     
+    <li><a href="Cocinas.html">Cocinas </a> </li>  
+      <li><a href="Closets.html">Clósets </a> </li> 
+    <li><a href="Otros.html">Otros </a> </li> 
+     <li> <a href="contacto.html#form">Contacto </a> </li> 
+        
+        
+        
+        
+        </ul>
+        
+        
+        </div>
+        
+        
+        <div class="f2">  
+            <h3>Síguenos</h3>
+            <div class="imagenesredes">
+            <a href=" "> <img  class="face" src="face.png" alt="" > </a>
+            
+            <a href=" "> <img class="insta" src="ins.png" alt=""> </a>
+            
+            <a href=" "> <img class="wh" src="wh.png" alt=""></a>
+            </div>
+        
+        </div>
+    
+    
+    
+    </div>
+        
+    <div class="espacio"> <p> </p> </div>
+    
+      <script>
+        
+        
+        
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuToggle = document.querySelector('.menu-toggle');
+        const menu = document.querySelector('.menu');
+        
+        
+        document.addEventListener('click', function (event) {
+    if (!menu.contains(event.target) && !menuToggle.contains(event.target)) {
+        menu.classList.remove('open'); // Cierra el menú si el clic ocurre fuera
+    }
+});
+
+        menuToggle.addEventListener('click', function () {
+            menu.classList.toggle('open');
+           
+        });
+    });
+        
+        
+        
+        
+</script>
+    </body>
+
+
+
+
+</html>
