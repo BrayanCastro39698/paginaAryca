@@ -14,7 +14,7 @@
 <tr>
   
 <th>  
-Descripción
+Descripción ✏️
 </th>  
 
 </tr>
